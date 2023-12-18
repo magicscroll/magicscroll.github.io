@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="description" content="MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising">
+  <meta property="og:title" content="MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising">
+  <meta property="og:description" content="MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="static/images/carousel1.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:title" content="MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising">
+  <meta name="twitter:description" content="MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising">
+  <meta name="twitter:image" content="static/images/carousel1.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MagicScroll</title>
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="icon" type="image/x-icon" href="https://yingqinghe.github.io/scalecrafter/static/images/favicon.ico">
+  <link href="./index_files/css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./index_files/bulma.min.css">
+  <link rel="stylesheet" href="./index_files/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./index_files/bulma-slider.min.css">
+  <link rel="stylesheet" href="./index_files/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./index_files/academicons.min.css">
+  <link rel="stylesheet" href="./index_files/index.css">
+  <link rel="stylesheet" href="./index_files/oov2wcw.css">
+  <script src="./index_files/jquery.min.js.下载"></script>
+  <script src="./index_files/main.js.下载"></script><script src="./index_files/ViewSDKInterface.js.下载"></script><style type="text/css">.ViewSDK_hideOverflow {
+        overflow: hidden;
+    }</style><style type="text/css">.ViewSDK_parentRelativeWidth {
+        width: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeWidth {
+        width: 100vw;
+    }</style><style type="text/css">.ViewSDK_parentRelativeHeight {
+        height: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeHeight {
+        height: 100vh;
+    }</style><style type="text/css">.ViewSDK_fullScreenPDFViewer {
+        width:100vw !important; height:100vh !important;
+        max-width:100vw !important; max-height:100vh !important;
+        position:fixed; top:0; left:0; z-index:99999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">:root { --ViewSDK-mobile-viewport-height:1vh; }</style><style type="text/css">.ViewSDK_fullScreenPDFViewerMobile {
+        width:100vw !important; height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        max-width:100vw !important; max-height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        position:fixed; top:0; left:0; z-index:99999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">.ViewSDK_hideOverflow {
+        overflow: hidden;
+    }</style><style type="text/css">.ViewSDK_parentRelativeWidth {
+        width: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeWidth {
+        width: 100vw;
+    }</style><style type="text/css">.ViewSDK_parentRelativeHeight {
+        height: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeHeight {
+        height: 100vh;
+    }</style><style type="text/css">.ViewSDK_fullScreenPDFViewer {
+        width:100vw !important; height:100vh !important;
+        max-width:100vw !important; max-height:100vh !important;
+        position:fixed; top:0; left:0; z-index:9999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">.ViewSDK_LBFullScreenPDFViewer {
+        width:100vw !important; height:100vh !important;
+        max-width:100vw !important; max-height:100vh !important;
+        position:fixed; top:0; left:0; z-index:10000;
+        margin: 0 !important; padding: 0 !important;
+        background-color: rgba(0, 0, 0, 0.2);
+        border: none !important;
+    }</style><style type="text/css">:root { --ViewSDK-mobile-viewport-height:1vh; }</style><style type="text/css">.ViewSDK_fullScreenPDFViewerMobile {
+        width:100vw !important; height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        max-width:100vw !important; max-height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        position:fixed; top:0; left:0; z-index:9999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">.ViewSDK_LBLoader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 10000;
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #1473E6;
+        width: 56px !important;
+        height: 56px !important;
+        margin: -32px 0 0 -32px;
+        border-radius: 50%;
+        -webkit-animation: lbSpin 2s linear infinite;
+        animation: lbSpin 2s linear infinite;
+    }
+    @-webkit-keyframes lbSpin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes lbSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }</style>
+  <script defer="" src="./index_files/fontawesome.all.min.js.下载"></script>
+  <script src="./index_files/bulma-carousel.min.js.下载"></script>
+  <script src="./index_files/bulma-slider.min.js.下载"></script>
+  <script src="./index_files/index.js.下载"></script>
+  
+
+<style type="text/css">.ViewSDK_hideOverflow {
+        overflow: hidden;
+    }</style><style type="text/css">.ViewSDK_parentRelativeWidth {
+        width: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeWidth {
+        width: 100vw;
+    }</style><style type="text/css">.ViewSDK_parentRelativeHeight {
+        height: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeHeight {
+        height: 100vh;
+    }</style><style type="text/css">.ViewSDK_fullScreenPDFViewer {
+        width:100vw !important; height:100vh !important;
+        max-width:100vw !important; max-height:100vh !important;
+        position:fixed; top:0; left:0; z-index:99999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">:root { --ViewSDK-mobile-viewport-height:1vh; }</style><style type="text/css">.ViewSDK_fullScreenPDFViewerMobile {
+        width:100vw !important; height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        max-width:100vw !important; max-height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        position:fixed; top:0; left:0; z-index:99999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">.ViewSDK_hideOverflow {
+        overflow: hidden;
+    }</style><style type="text/css">.ViewSDK_parentRelativeWidth {
+        width: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeWidth {
+        width: 100vw;
+    }</style><style type="text/css">.ViewSDK_parentRelativeHeight {
+        height: 100%;
+    }</style><style type="text/css">.ViewSDK_viewportRelativeHeight {
+        height: 100vh;
+    }</style><style type="text/css">.ViewSDK_fullScreenPDFViewer {
+        width:100vw !important; height:100vh !important;
+        max-width:100vw !important; max-height:100vh !important;
+        position:fixed; top:0; left:0; z-index:9999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">.ViewSDK_LBFullScreenPDFViewer {
+        width:100vw !important; height:100vh !important;
+        max-width:100vw !important; max-height:100vh !important;
+        position:fixed; top:0; left:0; z-index:10000;
+        margin: 0 !important; padding: 0 !important;
+        background-color: rgba(0, 0, 0, 0.2);
+        border: none !important;
+    }</style><style type="text/css">:root { --ViewSDK-mobile-viewport-height:1vh; }</style><style type="text/css">.ViewSDK_fullScreenPDFViewerMobile {
+        width:100vw !important; height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        max-width:100vw !important; max-height:calc(100 * var(--ViewSDK-mobile-viewport-height)) !important;
+        position:fixed; top:0; left:0; z-index:9999;
+        margin: 0 !important; padding: 0 !important;
+        border: none !important;
+    }</style><style type="text/css">.ViewSDK_LBLoader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 10000;
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #1473E6;
+        width: 56px !important;
+        height: 56px !important;
+        margin: -32px 0 0 -32px;
+        border-radius: 50%;
+        -webkit-animation: lbSpin 2s linear infinite;
+        animation: lbSpin 2s linear infinite;
+    }
+    @-webkit-keyframes lbSpin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes lbSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }</style></head>
+<body>
+
+
+  <section class="hero" style="height: 100vh; display: flex; flex-direction: column; justify-content: center;;">
+    <div class="hero-body">
+      <h4 class="title publication-title" style="text-align: center; font-size: 41px">
+        MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling <br>
+        via Multi-Layered Semantic-Aware Denoising
+      </h4>
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="is-size-5 publication-authors" style="text-align: center; font-size: x-small; margin-top: -45px;">
+      <!-- Paper authors -->
+      <span class="author-block">
+        <a href="https://cislab.hkust-gz.edu.cn/members/bingyuan-wang/" target="_blank">Bingyuan Wang</a><sup>1</sup>
+      </span>
+      <span class="author-block">
+        <a href="https://cislab.hkust-gz.edu.cn/members/hengyu-meng/" target="_blank">Hengyu Meng</a><sup>2</sup>
+      </span>
+      <span class="author-block">
+        <a href="" target="_blank">Zeyu Cai</a><sup>1</sup>
+      </span>
+      <span class="author-block">
+        <a href="" target="_blank">Lanjiong Li</a><sup>1</sup>
+      </span>
+      <span class="author-block">
+        <a href="https://mayuelala.github.io/" target="_blank">Yue Ma</a><sup>3</sup>
+      </span>
+      <span class="author-block">
+        <a href="https://cqf.io/" target="_blank">Qifeng Chen</a><sup>3</sup>
+      </span>
+      <span class="author-block">
+        <a href="https://cislab.hkust-gz.edu.cn/members/zeyu-wang/" target="_blank">Zeyu Wang</a><sup>#13</sup>
+      </span>
+    </div>
+    <div class="is-size-5 publication-authors" style="text-align: center; font-size: x-small; ">
+      <span class="author-block">
+        <sup>1</sup> Hong Kong University of Science and Technology (Guangzhou) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <sup>2</sup> South China University of Technology  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <sup>3</sup> Hong Kong University of Science and Technology  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <br>
+        (<sup>#</sup> Corresponding Author)
+    </span></div>
+    <div class="column has-text-centered" style="margin: 0 0;">
+      <div class="publication-links" style="margin: 0 0;">
+        <span class="link-block">
+          <a href="" target="_blank" class="external-link is-normal is-rounded is-dark">
+            <span class="icon">
+              <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
+            </span>
+            <span>Paper (will be released soon)</span>
+          </a>
+        </span>
+        <!-- Github link -->
+        <span class="link-block" style="margin: 0 0;">
+          <a href="" target="_blank" class="external-link is-normal is-rounded is-dark">
+            <span class="icon">
+              <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+            </span>
+            <span>Code (will be released soon)</span>
+          </a>
+        </span>
+      </div>
+    </div>
+
+    <!-- <video autoplay muted controls="" loop="" style="height: 75vh; margin: auto; text-align: center;  margin-left: 50px; margin-right: 50px;"> <source src="videos-2k/0189_randk2-seed135.mp4" type="video/mp4"></video> -->
+    <div id="carousel" class="carousel carousel-vid" style="overflow: hidden; height:300vh; width:100vh; margin-top: 10px;">
+      <div class="img-txt" style="height:300vh; width:100vh;">
+        <!-- <img src="./index_files/images/1.png" alt="图片" style="height:75vh"> -->
+        <img src="./index_files/images/1.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+        <!-- <p>Generated image with resolution of <span style="color:#974EC3">2048 x 512</span>. 
+          <br><span style="font-size: small;">Input: “Beside a floating fortress, the hero encounters a beauty bathing in waterfall…” 
+          </span></p> -->
+      </div>
+      <div class="img-txt" style="height:300vh; width:100vh;">
+        <img src="./index_files/images/2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+        <!-- <p>Generated image with resolution of <span style="color:#974EC3">2048 x 512</span>. 
+          <br><span style="font-size: small;">Input: “In the city, the police encountered a monster and Spiderman came to fight...”
+          </span></p> -->
+      </div>
+      <div class="img-txt" style="height:300vh; width:100vh;">
+        <img src="./index_files/images/3.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+        <!-- <p>Generated image with resolution of <span style="color:#974EC3">2048 x 512</span>. 
+          <br><span style="font-size: small;">Input: “The past drifts away, leaving only an ancient tower under sunset…”
+          </span></p> -->
+      </div>
+      <div class="img-txt" style="height:300vh; width:100vh;">
+        <img src="./index_files/images/4.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+        <!-- <p>Generated image with resolution of <span style="color:#974EC3">2048 x 512</span>. 
+          <br><span style="font-size: small;">Input: “In a futuristic otherworld land, a warrior embarks on his journey…”
+          </span></p> -->
+      </div>
+      <div class="img-txt" style="height:300vh; width:100vh;">
+        <img src="./index_files/images/5.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+        <!-- <p>Generated image with resolution of <span style="color:#974EC3">2048 x 512</span>. 
+          <br><span style="font-size: small;">Input: “Crowds and women at the door, a man and some foxes behind…”
+          </span></p> -->
+      </div>
+      <div class="img-txt" style="height:300vh; width:100vh;">
+        <img src="./index_files/images/6.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+        <!-- <p>Generated image with resolution of <span style="color:#974EC3">2048 x 512</span>. 
+          <br><span style="font-size: small;">Input: “Enveloped in natural scenery, I gradually step into an ink painting…”
+          </span></p> -->
+      </div>
+    </div>
+    
+    <p style="text-align: center; margin-bottom: 10px; "> <i>Example results generated by MagicScroll.</i> Our framework is designed for generating coherent, controllable, and engaging nontypical aspect-ratio images from story texts. <br> We support multi-layered, refined controls over style, content, and layout, with multiple conditions including predicted masks, reference images, and style concepts. </p>
+  
+
+    <br>
+    <div style="background-color: #ececec;">
+    <br>
+    <div class="container-small">
+      <h2 class="title is-3"><strong>Abstract</strong></h2><strong>
+      <p style="font-size: 14px;">
+        Visual storytelling often uses nontypical aspect-ratio images like scroll paintings, comic strips, and panoramas to create an expressive and compelling narrative.
+        While generative AI has achieved great success and shown the potential to reshape the creative industry, it remains a challenge to generate coherent and engaging content with arbitrary size and controllable style, concept, and layout, all of which are essential for visual storytelling.
+        To overcome the shortcomings of previous methods including repetitive content, style inconsistency, and lack of controllability, we propose MagicScroll, a multi-layered, progressive diffusion-based image generation framework with a novel semantic-aware denoising process.
+        The model enables fine-grained control over the generated image on object, scene, and background levels with text, image, and layout conditions.
+        We also establish the first benchmark for nontypical aspect-ratio image generation for visual storytelling including mediums like paintings, comics, and cinematic panoramas, with customized metrics for systematic evaluation.
+        Through comparative and ablation studies, MagicScroll showcases promising results in aligning with the narrative text, improving visual coherence, and engaging the audience.
+        We plan to release the code and benchmark in the hope of a better collaboration between AI researchers and creative practitioners involving visual storytelling.
+      </p>
+    </strong></div><strong>
+    <br>
+  </strong></div><strong>
+    <br>
+  </section>
+  
+
+<section class="hero is-small"> 
+      <h2 class="title is-3"><strong>Method</strong></h2><strong>
+        <h3 class="title is-4"><strong>A framework to generate nontypical aspect-ratio images from storytelling text with style and layout controls.</strong></h3><strong>
+          <!-- <p style="text-align: center"> MagicScroll mainly consists of GPT-based layout prediction, semantic-aware denoising, as well as text-based and image-based style control. </p> -->
+          <img src="./index_files/pipeline/pipeline.png" alt="Your Image" style="display: block; margin: auto; max-width: 60%; height: auto;">
+          <div class="hero-body">
+        </section>
+
+  
+</strong></section><strong>
+<div style="background-color: #ececec;">
+<br>
+<section class="hero is-small">
+  <!-- <div style="background-color:#FAF3F0;"> -->
+    <h2 class="title is-3"><strong>Results</strong></h2><strong>
+      <div class="hero-body">
+        <h3 class="title is-4"><strong>Qualitative Comparison of Our Method with Other Baselines</strong></h3><strong>
+          <p style="text-align: center; font-weight: 200;"> The results demonstrate the high versatility and core advantages of MagicScroll. (a) Style mimicry in specific historical contexts. (b) Semantic layout planning and control. (c) Content richness and diversity.
+          </p>
+          <br>
+          <img src="./index_files/comparative/all.png" alt="Your Image" style="display: block; margin: auto; max-width: 60%; height: auto;">
+        </div></div>
+
+
+      <div class="hero-body">
+        <br>
+        <h3 class="title is-4"><strong>Generation in Different Aspect Ratios</strong></h3><strong>
+          <p style="text-align: center">By providing control over style, concept, and layout at all foreground, midground, and background levels, our framework can meet the needs of visual storytelling content generation in various scenarios.</p>
+        <br>
+        <img src="./index_files/gallery/all.png" alt="Your Image" style="display: block; margin: auto; max-width: 60%; height: auto;">
+        <br>
+        <div id="carousel" class="carousel" style="width: 1000px; overflow: hidden;">
+          <div id="slider584dab6c-6c55-4e44-b396-87535490bb76" class="slider" tabindex="0">
+            <div class="slider-container" style="opacity: 1; width: 6000px; transition: none 0s ease 0s; transform: translate3d(0px, 0px, 0px);">
+              <div class="text" data-slider-index="0" style="width: 1000px; padding: 0 50px;">
+                <p>Chinese painting (left): "In a deep mountain enclave, where pines and cypresses thrive, Amidst swirling clouds and mist, distant rocks and peaks arrive. A dwelling stands in solitude, with a simple architectural grace, Beyond bamboo fences, children play in a joyous embrace. Beneath the trees, two figures converse with laughter and delight, Together forming a scene of tranquil seclusion, warm and bright."</p>
+              </div>
+              <div class="text" data-slider-index="1" style="width: 1000px; padding: 0 50px;">
+                <p>Chinese painting (right): 
+                  "In deep mountains, a waterfall descends from great height, Winding its way down, into a crystal pool, pure and bright. Water droplets dance, a splash of liquid light, In the distance, evergreen pines, in the foreground, rocks stand upright. The springwater murmurs, weaving a melody with stones, Surrounded by bushes, a charming scene it owns."</p>
+              </div>
+              <div class="text" data-slider-index="2" style="width: 1000px; padding: 0 50px;">
+                <p>Cinematic panorama (top): 
+                  "Amidst the sprawling castles, a troop of cavalry embarks on a quest. They traverse distant mountains, weaving through dense forests, passing rivers, castles, and perilous peaks. On the other end awaits a colossal dragon and its minions, their forms menacing, teeth bared, claws ready—intent on slaying all who dare to invade."</p>
+              </div>
+              <div class="text" data-slider-index="3" style="width: 1000px; padding: 0 50px;">
+                <p>Cinematic panorama (bottom):
+                  "Captain David and First Mate Jess set sail for a distant voyage. Their ship gazes upon far-off peaks, navigating through thick veils of mist, braving treacherous reefs. David and Jess stand boldly at the bow, unfolding a majestic scene like a grand painting coming to life."</p>
+              </div>
+              <div class="text" data-slider-index="4" style="width: 1000px; padding: 0 50px;">
+                <p>Comic strip (upper middle):
+                  "Early in the morning, the hero Catherine received a call to save the world. Armed and ready, she joined forces with Jack and headed towards the heart of the city. Gazing at the distant smoke, Jack's expression turned solemn as he thought of the lives lost. Despite the gravity of the situation, they bravely rescued the city, fulfilling their mission. The duo stood victorious, having overcome the challenges in their path."</p></div>
+              <div class="text" data-slider-index="5" style="width: 1000px; padding: 0 50px;">
+                <p>Comic strip (lower middle):
+                  "In a fairy tale, there exists a village of toys, adorned with beautiful castles, lakes, and flowers. People picnic in the fields, row boats on the lake, and celebrate harvest days in the snowy season. In this village, docks, fountains, and flower houses are constructed to embellish the tranquil life of its inhabitants."</p> </div>
+            </div>
+          </div>
+          <div class="slider-navigation-previous"><svg viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+            </svg></div>
+            <div class="slider-navigation-next"><svg viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+            </svg></div>
+            <div class="slider-pagination">
+              <div class="slider-page" data-index="0"></div>
+              <div class="slider-page" data-index="1"></div>
+              <div class="slider-page" data-index="2"></div>
+              <div class="slider-page" data-index="3"></div>
+              <div class="slider-page" data-index="4"></div>
+              <div class="slider-page" data-index="5"></div>
+            </div>
+        </div>
+        <br>
+        <img src="./index_files/gallery/long_1.png" alt="Your Image" style="display: block; margin: auto; max-width: 80%; height: auto;">
+        <br>
+        <img src="./index_files/gallery/long_2.png" alt="Your Image" style="display: block; margin: auto; max-width: 80%; height: auto;">
+        <br>
+        <p style="max-width: 80%; margin: auto;">From left to right: “In a serene garden, lakes and waterfalls flow gently as two girls, dressed in long skirts, run through it. The flowing water travels through dense forests, reaching vast meadows covered with green trees. Distant mountain peaks come into view, and amidst the ever-changing clouds, the mountains and waters harmonize. In this fantastical world, we gradually witness a series of towering castles standing in the distant lakeside, narrating an ancient story under the blue sky.”
+           </p>
+        <br>
+      </div>
+        
+    
+
+
+
+    <div style="background-color: #ececec;">
+      <br>
+      <div class="hero-body">
+        <div class="content has-text-justified">
+          <h3 class="title is-4"><strong>More Results Generated by MagicScroll</strong></h3><strong>
+       <div id="carousel" class="carousel" style="width:1500px; overflow: hidden;">
+          
+        <div id="slider584dab6c-6c55-4e44-b396-87535490bb76" class="slider" tabindex="0">
+      <div class="slider-container" style="opacity: 1; width: 8250px; transition: none 0s ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="slider-item" data-slider-index="-2" data-cloned="true" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/cinema_your_model_output_101.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/cinema_your_model_output_110.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/cinema_your_model_output_72.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/cinema_your_model_output_76.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">    
+            <img src="./index_files/experiment/cinema_your_model_output_84.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item" data-slider-index="-1" data-cloned="true" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/cinema_your_model_output_85.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/cinema_your_model_output_93.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/cinema_your_model_output_96.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/cinema_your_model_output_97.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/comic_1.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/comic_2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/comic_3.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/no_ref.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/no_ref_img2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/no_text.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/no_textual_inversion2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/painting_38.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/painting_67.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_100.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_101.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_102.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_111.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_111_2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_111_new.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_112.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_113.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_119.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_127.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_128.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_129.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_14.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_14_2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_22.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_28.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_32.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_34.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_35.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_36.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_36_2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_41.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_44.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_46.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_47.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_49.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_5.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_50.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_50_2 (2).png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_64.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_65.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_7.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div><div class="slider-item is-slide-next" data-slider-index="0" style="width: 750px;"><div class="baseline-img">
+            <img src="./index_files/experiment/your_model_output_71.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_71_2.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+            <img src="./index_files/experiment/your_model_output_99.png" alt="图片" style="width: 75%; height: 75%; object-fit: contain;">
+          </div></div></div></div>
+    <div class="slider-navigation-previous"><svg viewBox="0 0 50 80" xml:space="preserve">
+        <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+      </svg></div>
+  <div class="slider-navigation-next"><svg viewBox="0 0 50 80" xml:space="preserve">
+        <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+      </svg></div><div class="slider-pagination"><div class="slider-page is-active" data-index="0"></div><div class="slider-page" data-index="1"></div><div class="slider-page" data-index="2"></div></div></div></div>
+      </strong></div><strong>
+      </div> 
+
+      <!-- <div style="background-color: #ececec;"> -->
+        <div class="hero-body">
+          <br>
+          <h3 class="title is-4"><strong>Videos Synthsized from MagicScroll Outputs</strong></h3><strong>
+          <p style="text-align: center"> Our results can be used with an image-to-video method (e.g., Runway) to achieve impressive dynamics, better fit for industrial demands and creative needs.
+          </p>
+            <div id="carousel" class="carousel carousel-vid"> 
+            
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/1.mp4" type="video/mp4">
+              </video>
+            </div> 
+      
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/2.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/3.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/4.mp4" type="video/mp4">
+              </video>
+            </div> 
+      
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/5.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/6.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/7.mp4" type="video/mp4">
+              </video>
+            </div> 
+      
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/8.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="vid-txt">
+              <video autoplay muted controls="" loop="" width="1000px" >
+                <source src="./index_files/videos/9.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+            </div></div></div>
+      <!-- <div class="slider-navigation-previous"><svg viewBox="0 0 50 80" xml:space="preserve">
+        <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "></polyline>
+      </svg></div>
+      <div class="slider-navigation-next"><svg viewBox="0 0 50 80" xml:space="preserve">
+        <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "></polyline>
+      </svg></div>
+      <div class="slider-pagination"><div class="slider-page" data-index="0"></div><div class="slider-page is-active" data-index="1"></div><div class="slider-page" data-index="2"></div><div class="slider-page" data-index="3"></div><div class="slider-page" data-index="4"></div><div class="slider-page" data-index="5"></div><div class="slider-page" data-index="6"></div></div>
+    </div></div> -->
+        </strong></div><strong>
+      </strong></div><strong> 
+        
+    
+  
+</strong></strong></strong></strong></strong></strong></section><strong><strong><strong>
+
+
+
+
+</strong></strong></strong></strong></body></html>
